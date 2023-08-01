@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+
+    background: var(--background);
+    background-size: cover;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+
+    color: var(--light);
+    font-family: var(--bodyFont);
+}
+
+header nav a {
+    color: var(--light);
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    background-color: white;
+    transition: 0.1s ease-in-out;
+}
+
+header nav a.current-page {
+    font-weight: 600;
+}

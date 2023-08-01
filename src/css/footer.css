@@ -1,0 +1,7 @@
+footer .main-footer {
+    display: flex;
+}
+
+footer .copyright-footer {
+    background-color: var(--dark);
+}

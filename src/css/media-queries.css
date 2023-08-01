@@ -1,0 +1,44 @@
+header {    
+    padding: 1rem 10rem;
+
+    font-size: 1rem;
+}
+
+header img.icon {
+    width: 40px;
+    height: 40px;
+}
+
+header nav a {
+    margin-right: 1.5rem;
+}
+
+section img {
+    width: 10rem;
+}
+
+section.first-section {
+    height: 30rem;
+    padding: 10rem;
+}
+
+section.first-section div {
+    padding-bottom: 1rem;
+}
+
+section.first-section h1 {
+    width: 21rem;
+
+    font-size: 3rem;
+}
+
+section.first-section a.call-to-action {
+    padding: 0.5rem 1rem;
+}
+
+footer .copyright-footer {
+    height: 5rem;
+}
+
+@media only screen and (min-width: 576px) {
+}
