@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <title>Empório Pet</title>
     <link rel="stylesheet" href="./src/css/index.css">
   </head>
   <body id="home">
     <header>
-      <a href="./index.html"><img class="icon" src="src/assets/svg/icon.svg" alt="Ícone da Empório Pet"></a>
+      <a href="#home"><img class="icon" src="src/assets/svg/icon.svg" alt="Ícone da Empório Pet"></a>
       <nav>
         <a class="current-page" href="#home">Home</a>
         <a href="#sobre">Sobre</a>
@@ -18,13 +18,13 @@
       </nav>
     </header>
     <main>
-      <section class="first-section bg-white">
+      <section class="first bg-white">
         <div class="left">
           <div>
             <h1>
-              Dê ao seu <span>Pet</span> <br>
-              o <span>cuidado</span> que <br>
-              ele <span>merece</span>
+              Dê ao seu <b>Pet</b> <br>
+              o <b>cuidado</b> que <br>
+              ele <b>merece</b>
             </h1>
           </div>
           <div class="agende-agora">
@@ -46,26 +46,30 @@
           <img src="src/assets/images/chaw.png" alt="">
         </div>
       </section>
-      <section>
-        <img src="src/assets/svg/logo.svg" alt="Logomarca da Empório Pet">
+      <section class="second">
+        <a href="">
+          <img src="src/assets/svg/logo.svg" alt="Logomarca da Empório Pet">
+        </a>
       </section>
-      <section id="sobre">
+      <section id="sobre" class="third">
         <h2>Sobre Nós</h2>
         <article>
-          <p></p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi illum unde eaque doloribus, incidunt laboriosam distinctio optio recusandae culpa? Asperiores explicabo eum ad nulla aspernatur debitis dicta, modi sunt quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel enim est exercitationem fugit a sapiente excepturi quae et. Beatae, dignissimos. Non rem, assumenda culpa eius quis quo sequi exercitationem.
+          </p>
         </article>
       </section>
       <section id="servicos" class="bg-white">
         <h2>Serviços</h2>
-        <div id=""></div>
+        <div id="react-carousel"></div>
       </section>
       <section class="bg-white">
-        <p>Aqui seu pet está <strong>seguro</strong></p>
+        <p>Aqui seu pet está <b>seguro</b></p>
         <a href="">Agende agora por Whatsapp</a>
       </section>
     </main>
       <footer>
-        <section id="contato" class="main-footer">
+        <section id="contato" class="info">
           <img src="src/assets/svg/logo.svg" alt="Logomarca da Empório Pet">
             <div>
               <h3>Navegação</h3>
@@ -93,11 +97,11 @@
               </p>
             </div>
         </section>
-        <section class="copyright-footer">
-          <div id="copyright"></div>
+        <section class="copyright">
+          <div id="react-copyright"></div>
         </section>
       </footer>
-      <script type="module" src="../src/main.jsx"></script>
+      <script type="module" src="./src/js/index.jsx"></script>
     </body>
     </html>
     

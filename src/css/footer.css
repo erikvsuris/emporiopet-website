@@ -1,7 +1,10 @@
-footer .main-footer {
+footer .info {
     display: flex;
 }
 
-footer .copyright-footer {
+footer .copyright {
+    display: flex;
+    justify-content: center;
     background-color: var(--dark);
+    color: var(--light);
 }

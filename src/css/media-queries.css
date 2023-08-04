@@ -19,43 +19,68 @@ section img {
     width: 10rem;
 }
 
-.first-section {
+.first {
     height: 30rem;
     padding: 10rem;
 }
 
-.first-section h1 {
+.first h1 {
     width: 21rem;
 
     font-size: 3rem;
 }
 
-.first-section .agende-agora {
+.first .agende-agora {
     padding: 2rem 0;
     font-size: 1.5rem;
 }
 
-.first-section .agende-agora .text {
+.first .agende-agora .text {
     padding-left: 1rem;
 }
 
-.first-section .left img {
+.first .left img {
     width: 5rem;
 }
 
-.first-section .right img {
+.first .right img {
     width: 33em;
     margin: -6rem;
 }
 
-.first-section .saiba-mais {
+.first .saiba-mais {
     padding: 1rem 3rem;
     border-radius: 5rem;
     font-size: 2rem;
 }
 
-.copyright-footer {
-    height: 5rem;
+.second {
+    padding: 10rem;
+}
+
+.second img {
+    width: 30rem;
+}
+
+.third {
+    padding: 0 10rem 5rem 10rem;
+}
+
+.third h2 {
+    font-size: 3rem;
+}
+
+.third article {
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.third article p {
+    font-size: 1.2rem;
+}
+
+.copyright {
+    height: 4rem;
 }
 
 @media only screen and (min-width: 576px) {

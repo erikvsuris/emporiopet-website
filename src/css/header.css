@@ -3,11 +3,10 @@ header {
     position: sticky;
     top: 0;
 
-    background: var(--background);
-    background-size: cover;
-
     justify-content: space-between;
     align-items: center;
+
+    background: inherit;
 
     font-family: var(--bodyFont);
     color: var(--light);
