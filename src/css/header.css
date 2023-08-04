@@ -9,20 +9,13 @@ header {
     justify-content: space-between;
     align-items: center;
 
-
-
-    color: var(--light);
     font-family: var(--bodyFont);
+    color: var(--light);
 }
 
 header nav a {
-    color: var(--light);
     text-transform: uppercase;
-}
-
-header nav a:hover {
-    background-color: white;
-    transition: 0.1s ease-in-out;
+    color: var(--light);
 }
 
 header nav a.current-page {

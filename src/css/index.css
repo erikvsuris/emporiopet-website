@@ -39,6 +39,7 @@ body {
 
 body {
     font-family: var(--standardFont);
+    background: var(--background);
 }
 
 a {

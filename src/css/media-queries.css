@@ -10,33 +10,51 @@ header img.icon {
 }
 
 header nav a {
-    margin-right: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
 }
 
 section img {
     width: 10rem;
 }
 
-section.first-section {
+.first-section {
     height: 30rem;
     padding: 10rem;
 }
 
-section.first-section div {
-    padding-bottom: 1rem;
-}
-
-section.first-section h1 {
+.first-section h1 {
     width: 21rem;
 
     font-size: 3rem;
 }
 
-section.first-section a.call-to-action {
-    padding: 0.5rem 1rem;
+.first-section .agende-agora {
+    padding: 2rem 0;
+    font-size: 1.5rem;
 }
 
-footer .copyright-footer {
+.first-section .agende-agora .text {
+    padding-left: 1rem;
+}
+
+.first-section .left img {
+    width: 5rem;
+}
+
+.first-section .right img {
+    width: 33em;
+    margin: -6rem;
+}
+
+.first-section .saiba-mais {
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+}
+
+.copyright-footer {
     height: 5rem;
 }
 
