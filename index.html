@@ -8,15 +8,7 @@
     <link rel="stylesheet" href="./src/css/index.css">
   </head>
   <body id="home">
-    <header>
-      <a href="#home"><img class="icon" src="src/assets/svg/icon.svg" alt="Ícone da Empório Pet"></a>
-      <nav>
-        <a class="current-page" href="#home">Home</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
-      </nav>
-    </header>
+    <div id="react-header"></div>
     <main>
       <section class="first bg-white">
         <div class="left">
@@ -59,45 +51,68 @@
           </p>
         </article>
       </section>
-      <section id="servicos" class="bg-white">
+      <section id="servicos" class="fourth bg-white">
         <h2>Serviços</h2>
         <div id="react-carousel"></div>
       </section>
-      <section class="bg-white">
+      <section class="fifth bg-white">
         <p>Aqui seu pet está <b>seguro</b></p>
-        <a href="">Agende agora por Whatsapp</a>
+          <div class="left">
+            <div class="agende-agora">
+              <a href="">
+                <div class="image">
+                  <img src="src/assets/images/1.png" alt="">
+                </div>
+                <div class="text">
+                  Agende agora <br>
+                  por Whatsapp
+                </div>
+              </a>
+            </div>
+          </div>
+        <div class="right">
+          <img src="./src/assets/images/rot.png" alt="">
+        </div>
       </section>
     </main>
       <footer>
-        <section id="contato" class="info">
-          <img src="src/assets/svg/logo.svg" alt="Logomarca da Empório Pet">
-            <div>
-              <h3>Navegação</h3>
-              <nav>
-                <a href="">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#contato">Contato</a>
-              </nav>
-            </div>
-            <div>
-              <h3>Contato</h3>
-              <p>
-          
-              </p>
-            </div>
-            <div>
-              <h3>Endereço</h3>
-              <p>
-              </p>
-            </div>
-            <div>
-              <h3>Funcionamento</h3>
-              <p>
-              </p>
+        <section id="contato" class="footer-info">
+          <img src="src/assets/svg/icon.svg" alt="Logomarca da Empório Pet">
+            <div class="info">
+              <div>
+                <h3>Navegação</h3>
+                <nav>
+                  <a href="">Home</a>
+                  <a href="#sobre">Sobre</a>
+                  <a href="#servicos">Serviços</a>
+                  <a href="#contato">Contato</a>
+                </nav>
+              </div>
+              <div>
+                <h3>Contato</h3>
+                <nav>
+                  <a href="">(51) 8308-5353</a>
+                  <a href="">emporiopetviamao@gmail.com</a>
+                  <a href="">@emporiopet_viamao</a>
+                </nav>
+              </div>
+              <div>
+                <h3>Endereço</h3>
+                <p>
+                  Av. Sen. Salgado Filho, 6614 <br>
+                  Loja 109, Cantegril, Viamão
+                </p>
+              </div>
+              <div>
+                <h3>Funcionamento</h3>
+                <p>
+                  Segunda a sexta das 08h às 19h <br>
+                  Sabádo das 08h às 13h
+                </p>
+              </div>
             </div>
         </section>
-        <section class="copyright">
+        <section class="footer-copyright">
           <div id="react-copyright"></div>
         </section>
       </footer>
