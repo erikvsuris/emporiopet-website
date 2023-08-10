@@ -1,7 +1,7 @@
 header {
     display: flex;
     position: sticky;
-    top: 0rem;
+    top: 0;
 
     justify-content: space-between;
     align-items: center;
@@ -17,6 +17,7 @@ header nav a {
     color: var(--light);
 }
 
-header nav a.current-page {
+header nav a:hover {
     font-weight: 600;
+    transition: 200ms;
 }

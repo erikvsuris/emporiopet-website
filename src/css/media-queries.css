@@ -10,8 +10,7 @@ header img.icon {
 }
 
 header nav a {
-    padding: 0.25rem 0.75rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     border-radius: 1rem;
 }
 
@@ -21,7 +20,7 @@ section img {
 
 .first {
     height: 30rem;
-    padding: 10rem;
+    padding: 6rem 10rem;
 }
 
 .first h1 {
@@ -63,7 +62,10 @@ section img {
 }
 
 .third {
+    display: flex;
+    flex-direction: column;
     padding: 0 10rem 5rem 10rem;
+    background-size: 15rem;
 }
 
 .third h2 {
@@ -71,20 +73,49 @@ section img {
 }
 
 .third article {
+    margin-top: 2rem;
     padding: 2rem;
     border-radius: 2rem;
+    width: 60%;
 }
 
 .third article p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .fourth {
     padding: 5rem 10rem;
 }
 
+.fourth h2 {
+    font-size: 3rem;
+}
+
 .fifth {
-    padding: 5rem 10rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    padding: 0 10rem;
+}
+
+.fifth .title {
+    font-size: 3rem;
+}
+
+.fifth .agende-agora {
+    font-size: 1.5rem;
+}
+
+.fifth .agende-agora img {
+    width: 5rem;
+}
+
+.fifth .agende-agora .text {
+    padding-left: 1rem;
+}
+
+.fifth .dog-image img {
+    width: 100%;
 }
 
 .footer-info {

@@ -1,7 +1,3 @@
-.hide {
-    top: -6rem;
-}
-
-.show {
-    top: 0;
+#react-nav a.current-page {
+    font-weight: 600;
 }
