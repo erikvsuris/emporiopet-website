@@ -22,7 +22,7 @@ footer, footer a {
 }
 
 .footer-info .info nav a:hover {
-    font-weight: 700;
+    font-weight: 500;
     transition: 200ms;
 }
 

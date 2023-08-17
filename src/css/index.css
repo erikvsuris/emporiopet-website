@@ -3,7 +3,6 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
-@import url(events.css);
 @import url(media-queries.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
@@ -20,7 +19,7 @@
     --blue: #67C8DC;
     --green: #28C7B1;
 
-    --background: url(../assets/svg/pattern.svg) fixed, linear-gradient(to right, var(--purple), var(--blue));
+    --background: url(../assets/svg/pattern.svg) fixed, linear-gradient(to right, var(--purple), var(--blue)) no-repeat;
 }
 
 * {
@@ -34,20 +33,13 @@ html {
 }
 
 body {
+    font-family: var(--standardFont);
+    background: var(--background);
+
     letter-spacing: 0.1rem;
     font-weight: 400;
 }
 
-body {
-    font-family: var(--standardFont);
-    background: var(--background);
-}
-
 a {
     color: var(--dark);
-    text-decoration: none;
-}
-
-p b {
-    font-weight: 700;
 }

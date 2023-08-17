@@ -1,11 +1,4 @@
 header {
-    display: flex;
-    position: sticky;
-    top: 0;
-
-    justify-content: space-between;
-    align-items: center;
-
     background: inherit;
 
     font-family: var(--bodyFont);
@@ -15,9 +8,4 @@ header {
 header nav a {
     text-transform: uppercase;
     color: var(--light);
-}
-
-header nav a:hover {
-    font-weight: 600;
-    transition: 200ms;
 }

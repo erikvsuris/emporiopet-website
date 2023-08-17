@@ -1,147 +1,44 @@
-header {    
-    padding: 1rem 10rem;
+@media only screen and (max-width: 576px) {
+    .container {
+        margin: auto;
+        width: 80vw;
+    }
 
-    font-size: 1rem;
+    header {
+        display: flex;
+        align-content: center;
+        height: 80px;
+    }
+
+    header .container {
+        height: 70%;
+    }
+
+    header img {
+        height: 100%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    main section {
+        padding: 50px 0;
+    }
 }
 
-header img.icon {
-    width: 40px;
-    height: 40px;
+@media only screen and (max-width: 768px) {
+
 }
 
-header nav a {
-    margin-left: 2rem;
-    border-radius: 1rem;
+@media only screen and (max-width: 992px) {
+
 }
 
-section img {
-    width: 10rem;
+@media only screen and (max-width: 1200px) {
+
 }
 
-.first {
-    height: 30rem;
-    padding: 6rem 10rem;
-}
+@media only screen and (max-width: 1400px) {
 
-.first h1 {
-    width: 21rem;
-
-    font-size: 3rem;
-}
-
-.first .agende-agora {
-    padding: 2rem 0;
-    font-size: 1.5rem;
-}
-
-.first .agende-agora .text {
-    padding-left: 1rem;
-}
-
-.first .left img {
-    width: 5rem;
-}
-
-.first .right img {
-    width: 33em;
-    margin: -6rem;
-}
-
-.first .saiba-mais {
-    padding: 1rem 3rem;
-    border-radius: 5rem;
-    font-size: 2rem;
-}
-
-.second {
-    padding: 10rem;
-}
-
-.second img {
-    width: 30rem;
-}
-
-.third {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10rem 5rem 10rem;
-    background-size: 15rem;
-}
-
-.third h2 {
-    font-size: 3rem;
-}
-
-.third article {
-    margin-top: 2rem;
-    padding: 2rem;
-    border-radius: 2rem;
-    width: 60%;
-}
-
-.third article p {
-    font-size: 1rem;
-}
-
-.fourth {
-    padding: 5rem 10rem;
-}
-
-.fourth h2 {
-    font-size: 3rem;
-}
-
-.fifth {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    padding: 0 10rem;
-}
-
-.fifth .title {
-    font-size: 3rem;
-}
-
-.fifth .agende-agora {
-    font-size: 1.5rem;
-}
-
-.fifth .agende-agora img {
-    width: 5rem;
-}
-
-.fifth .agende-agora .text {
-    padding-left: 1rem;
-}
-
-.fifth .dog-image img {
-    width: 100%;
-}
-
-.footer-info {
-    padding: 4rem 10rem;
-}
-
-.footer-info img {
-    padding-right: 4rem;
-    width: 6rem;
-}
-
-.footer-info .info h3 {
-    padding-bottom: 1rem;
-}
-
-.footer-info .info p {
-    font-size: 0.8rem;
-}
-
-.footer-info .info > div {
-    padding: 0 0rem 1rem 0;
-}
-
-.footer-copyright {
-    padding: 1rem 0;
-}
-
-@media only screen and (min-width: 576px) {
 }
