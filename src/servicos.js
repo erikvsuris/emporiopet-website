@@ -1,4 +1,4 @@
-export default [
+export default () => [
     {
         titulo: 'Banho e Tosa',
         imagem: 'url',
@@ -12,6 +12,5 @@ export default [
     {
         titulo: 'Pet Shop',
         imagem: 'url',
-
     }
 ]
