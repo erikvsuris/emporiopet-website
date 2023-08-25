@@ -33,6 +33,7 @@ html {
 body {
     font-family: var(--standardFont);
     background: var(--background);
+    color: var(--dark);
 
     letter-spacing: 0.1rem;
     font-weight: 400;
@@ -70,6 +71,10 @@ header nav a {
 
 .call-to-action em {
     font-weight: 700;
+}
+
+.agende-agora a {
+    font-weight: 500;
 }
 
 .saiba-mais {
