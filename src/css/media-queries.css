@@ -123,7 +123,7 @@ main h2 {
     width: 70vw;
 }
 
-.sobre-nos article  {
+.sobre article  {
     margin: 25px auto;
     padding: 15px;
     width: 70vw;
@@ -223,9 +223,17 @@ footer .footer-copyright {
         font-weight: 500;
     }
 
+    .logotipo img {
+        max-width: 400px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
+
+    h2 {
+        font-size: 40px;
+    }
 
     .container {
         width: 70vw;
@@ -236,15 +244,30 @@ footer .footer-copyright {
         padding: 80px 0;
     }
 
+
     .call-to-action .container {
         grid-template-rows: 30% 60%;
         grid-template-columns: 45% 55%;
     }
     
+    .final .container {
+        grid-template-rows: 40% 60%;
+        grid-template-columns: 40% 60%;
+    }
+
+    .final .agende-agora {
+        justify-content: start;
+        align-content: start;
+    }
+
     .call-to-action .heading {
         grid-area: 1 / 1 / 1 / 1;
         text-align: left;
         font-size: 30px;
+    }
+
+    .final .heading {
+        font-size: 50px;
     }
 
     .call-to-action .agende-agora a {
@@ -267,14 +290,32 @@ footer .footer-copyright {
         grid-area: 1 / 2 / 3 / 3;
     }
 
-    .logotipo img {
-        max-width: 500px;
+    .sobre article {
+        width: 40vw;
+        padding: 30px 50px;
+        text-align: justify;
+    }
+
+    .sobre article p {
+        font-size: 20px;
+    }
+
+    .footer-info .container {
+        display: flex;
     }
 
 }
 
 @media only screen and (min-width: 1200px) {
     
+    .logotipo .container { 
+        padding-top: 50px;
+    }
+
+    .logotipo img {
+        max-width: 600px;
+    }
+
 }
 
 @media only screen and (min-width: 1400px) {
